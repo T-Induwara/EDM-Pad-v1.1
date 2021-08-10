@@ -1,14 +1,30 @@
+@media only screen and (min-width: 375px) {
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .title-section {
+    margin-top: 100px;
+  }
+  .title-h {
+    font-size: 60px;
+  }
+  .desc {
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  #col-row {
+    margin-top: 60px;
+  }
+}
+
 body {
   margin: 0;
-  padding-left: 40px;
-  padding-right: 40px;
   background-image: url("/img/edm.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-#main-div {
-  display: flex;
-  margin-top: 300px;
 }
 #a,
 #s,
@@ -19,17 +35,34 @@ body {
 #j,
 #k,
 #l {
+  display: table;
   width: 200px;
   height: 200px;
   background-color: rgba(104, 104, 104, 0.658);
   border-radius: 20px;
   margin-top: 20px;
 }
-.shadow {
+.d-shadow {
   box-shadow: 2px 2px 8px 2px rgb(214, 154, 42);
 }
-h1 {
+.btns {
+  display: table-cell;
+  vertical-align: middle;
   font-family: "Indie Flower", cursive;
+  font-size: 40px;
   text-align: center;
+  color: white;
+}
+#column {
+  padding-left: 100px;
+}
+
+.title-h {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  color: white;
+}
+.desc {
+  font-family: "Poiret One", cursive;
   color: white;
 }

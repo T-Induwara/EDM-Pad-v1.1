@@ -25,49 +25,49 @@ document.body.onkeypress = function(input){
     console.log(key + " key pressed");
     if(key === 97){
         audio1.play();
-        keyA.classList.add("shadow");
+        keyA.classList.add("d-shadow");
     }
     else if(key === 115){
         audio2.play();
-        keyS.classList.add("shadow");
+        keyS.classList.add("d-shadow");
     }
     else if(key === 100){
         audio3.play();
-        keyD.classList.add("shadow");
+        keyD.classList.add("d-shadow");
     }
     else if(key === 102){
         audio4.play();
-        keyF.classList.add("shadow");
+        keyF.classList.add("d-shadow");
     }
     else if(key === 103){
         audio5.play();
-        keyG.classList.add("shadow");
+        keyG.classList.add("d-shadow");
     }
     else if(key === 104){
         audio6.play();
-        keyH.classList.add("shadow");
+        keyH.classList.add("d-shadow");
     }
     else if(key === 106){
         audio7.play();
-        keyJ.classList.add("shadow");
+        keyJ.classList.add("d-shadow");
     }
     else if(key === 107){
         audio8.play();
-        keyK.classList.add("shadow");
+        keyK.classList.add("d-shadow");
     }
     else if(key === 108){
         audio9.play();
-        keyL.classList.add("shadow");
+        keyL.classList.add("d-shadow");
     }
 }
 document.body.onkeyup = function(input){
-    keyA.classList.remove("shadow");
-    keyS.classList.remove("shadow");
-    keyD.classList.remove("shadow");
-    keyF.classList.remove("shadow");
-    keyG.classList.remove("shadow");
-    keyH.classList.remove("shadow");
-    keyJ.classList.remove("shadow");
-    keyK.classList.remove("shadow");
-    keyL.classList.remove("shadow");
+    keyA.classList.remove("d-shadow");
+    keyS.classList.remove("d-shadow");
+    keyD.classList.remove("d-shadow");
+    keyF.classList.remove("d-shadow");
+    keyG.classList.remove("d-shadow");
+    keyH.classList.remove("d-shadow");
+    keyJ.classList.remove("d-shadow");
+    keyK.classList.remove("d-shadow");
+    keyL.classList.remove("d-shadow");
 }
