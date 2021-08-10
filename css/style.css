@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-image: url("/img/edm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main-div {
+  display: flex;
+  margin-top: 300px;
+}
+#a,
+#s,
+#d,
+#f,
+#g,
+#h,
+#j,
+#k,
+#l {
+  flex: 11.1%;
+  height: 89px;
+  background-color: rgba(104, 104, 104, 0.658);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.shadow {
+  box-shadow: 2px 2px 8px 2px rgb(214, 154, 42);
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  color: white;
+}
