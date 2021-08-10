@@ -17,6 +17,7 @@
   }
   #col-row {
     margin-top: 60px;
+    margin-bottom: 100px;
   }
 }
 
@@ -25,6 +26,7 @@ body {
   background-image: url("/img/edm.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 #a,
 #s,
@@ -44,6 +46,9 @@ body {
 }
 .d-shadow {
   box-shadow: 2px 2px 8px 2px rgb(214, 154, 42);
+}
+.dn-shadow {
+  box-shadow: none;
 }
 .btns {
   display: table-cell;

@@ -23,39 +23,39 @@ var audio9 = new Audio("audio/tom.wav");
 document.body.onkeypress = function(input){
     var key = input.keyCode;
     console.log(key + " key pressed");
-    if(key === 97){
+    if(key === 55){
         audio1.play();
         keyA.classList.add("d-shadow");
     }
-    else if(key === 115){
+    else if(key === 52){
         audio2.play();
         keyS.classList.add("d-shadow");
     }
-    else if(key === 100){
+    else if(key === 49){
         audio3.play();
         keyD.classList.add("d-shadow");
     }
-    else if(key === 102){
+    else if(key === 56){
         audio4.play();
         keyF.classList.add("d-shadow");
     }
-    else if(key === 103){
+    else if(key === 53){
         audio5.play();
         keyG.classList.add("d-shadow");
     }
-    else if(key === 104){
+    else if(key === 50){
         audio6.play();
         keyH.classList.add("d-shadow");
     }
-    else if(key === 106){
+    else if(key === 57){
         audio7.play();
         keyJ.classList.add("d-shadow");
     }
-    else if(key === 107){
+    else if(key === 54){
         audio8.play();
         keyK.classList.add("d-shadow");
     }
-    else if(key === 108){
+    else if(key === 51){
         audio9.play();
         keyL.classList.add("d-shadow");
     }
@@ -69,5 +69,77 @@ document.body.onkeyup = function(input){
     keyH.classList.remove("d-shadow");
     keyJ.classList.remove("d-shadow");
     keyK.classList.remove("d-shadow");
+    keyL.classList.remove("d-shadow");
+}
+
+keyA.onmousedown = function(input){
+    audio1.play();
+    keyA.classList.add("d-shadow");
+}
+keyA.onmouseup = function(input){
+    keyA.classList.remove("d-shadow");
+}
+
+keyS.onmousedown = function(input){
+    audio2.play();
+    keyS.classList.add("d-shadow");
+}
+keyS.onmouseup = function(input){
+    keyS.classList.remove("d-shadow");
+}
+
+keyD.onmousedown = function(input){
+    audio3.play();
+    keyD.classList.add("d-shadow");
+}
+keyD.onmouseup = function(input){
+    keyD.classList.remove("d-shadow");
+}
+
+keyF.onmousedown = function(input){
+    audio4.play();
+    keyF.classList.add("d-shadow");
+}
+keyF.onmouseup = function(input){
+    keyF.classList.remove("d-shadow");
+}
+
+keyG.onmousedown = function(input){
+    audio5.play();
+    keyG.classList.add("d-shadow");
+}
+keyG.onmouseup = function(input){
+    keyG.classList.remove("d-shadow");
+}
+
+keyH.onmousedown = function(input){
+    audio6.play();
+    keyH.classList.add("d-shadow");
+}
+keyH.onmouseup = function(input){
+    keyH.classList.remove("d-shadow");
+}
+
+keyJ.onmousedown = function(input){
+    audio7.play();
+    keyJ.classList.add("d-shadow");
+}
+keyJ.onmouseup = function(input){
+    keyJ.classList.remove("d-shadow");
+}
+
+keyK.onmousedown = function(input){
+    audio8.play();
+    keyK.classList.add("d-shadow");
+}
+keyK.onmouseup = function(input){
+    keyK.classList.remove("d-shadow");
+}
+
+keyL.onmousedown = function(input){
+    audio9.play();
+    keyL.classList.add("d-shadow");
+}
+keyL.onmouseup = function(input){
     keyL.classList.remove("d-shadow");
 }
