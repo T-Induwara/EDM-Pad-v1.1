@@ -22,7 +22,7 @@ var audio9 = new Audio("audio/tom.wav");
 
 document.body.onkeypress = function(input){
     var key = input.keyCode;
-    console.log(key + " key pressed");
+    //console.log(key + " key pressed");
     if(key === 55){
         audio1.play();
         keyA.classList.add("d-shadow");

@@ -1,9 +1,37 @@
 @media only screen and (min-width: 375px) {
+  body {
+    background-image: url("/img/edm.png");
+    background-size: 100vh;
+    background-position: center;
+  }
+  .title-section {
+    margin-top: 200px;
+  }
+  .title-h {
+    font-size: 88px;
+  }
+  .desc {
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  #col-row {
+    margin-top: 200px;
+  }
+  .f-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   body {
     padding-left: 40px;
     padding-right: 40px;
+    background-image: url("/img/edm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .title-section {
     margin-top: 100px;
@@ -14,19 +42,24 @@
   .desc {
     font-size: 30px;
     margin-top: 60px;
+    text-align: left;
   }
   #col-row {
     margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  #column {
+    padding-left: 100px;
+  }
+  .f-text {
+    font-size: 20px;
     margin-bottom: 100px;
+    text-align: center;
   }
 }
 
 body {
   margin: 0;
-  background-image: url("/img/edm.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 #a,
 #s,
@@ -58,9 +91,6 @@ body {
   text-align: center;
   color: white;
 }
-#column {
-  padding-left: 100px;
-}
 
 .title-h {
   font-family: "Kaushan Script", cursive;
@@ -69,5 +99,12 @@ body {
 }
 .desc {
   font-family: "Poiret One", cursive;
+  color: white;
+}
+.f-text {
+  font-family: "Poiret One", cursive;
+  color: white;
+}
+.f-text a {
   color: white;
 }
